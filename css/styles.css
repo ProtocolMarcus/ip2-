@@ -1,0 +1,19 @@
+#landing {
+  background-image: url("../ip2/assets/backgrounds/landing.jpg");
+  height: 636px;
+  width: 1400px;
+  background-size: 100%;
+  padding-top: 100px;
+}
+
+.welcome {
+  color: white;
+  font-size: 40px;
+  padding-top: 40px;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#breakfast {
+  background-image: url("../ip2/assets/foodtop/breakfast.jpg");
+  background-size: 100%;
+}
