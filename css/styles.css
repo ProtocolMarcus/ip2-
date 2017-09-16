@@ -37,6 +37,15 @@
   font-size: 40px;
 }
 
-#pic1 {
-  
+#wrap1 {
+  float: left;
+  padding-top: 100px;
+}
+
+#wrap2 {
+  float: right;
+  padding-top: 100px;
+  padding-right: 200px;
+  padding-left: 50px;
+  font-size: 15px;
 }
