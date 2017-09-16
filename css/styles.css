@@ -1,7 +1,5 @@
 #landing {
   background-image: url("../ip2/assets/backgrounds/landing.jpg");
-  height: 636px;
-  width: 1400px;
   background-size: 100%;
   padding-top: 100px;
 }
@@ -16,7 +14,7 @@
 #breakfast {
   background-image: url("../ip2/assets/foodtop/breakfast.jpg");
   background-size: 100%;
-  padding: 80px;
+  padding: 70px;
   color: white;
   font-size: 40px;
 }
@@ -24,7 +22,7 @@
 #lunch {
   background-image: url("../ip2/assets/foodtop/lunch.jpg");
   background-size: 100%;
-  padding: 80px;
+  padding: 70px;
   color: white;
   font-size: 40px;
 }
@@ -32,7 +30,7 @@
 #dinner {
   background-image: url("../ip2/assets/foodtop/dinner.jpg");
   background-size: 100%;
-  padding: 80px;
+  padding: 70px;
   color: white;
   font-size: 40px;
 }
@@ -40,12 +38,85 @@
 #wrap1 {
   float: left;
   padding-top: 100px;
+  padding-left: 150px;
 }
 
 #wrap2 {
-  float: right;
   padding-top: 100px;
   padding-right: 200px;
   padding-left: 50px;
   font-size: 15px;
+  text-align: left;
+}
+
+#wrap3 {
+  font-size: 15px;
+  padding-left: 200px;
+  text-align: right;
+  padding-top: 100px;
+}
+
+#wrap4 {
+  float: right;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+#platefood {
+  background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
+  background-size: 100%;
+  padding-top: 100px;
+  padding-bottom: 300px;
+}
+
+#home {
+  color: white;
+}
+
+#menu1 {
+  color: white;
+}
+
+#menu2 {
+  color: white;
+}
+
+#menu3 {
+  color: white;
+}
+
+#subscribe {
+  background-image: url("../ip2/assets/backgrounds/subscribe.jpg");
+  background-size: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#email {
+  width: 350px;
+  background-color: lightgrey;
+  color: white;
+  height: 45px;
+  border: 0px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+
+}
+
+#button {
+  width: 200px;
+  background-color: #F15A29;
+  color: white;
+  height: 45px;
+  border-color: #F15A29;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.footer {
+  background-color: #F15A29;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
 }

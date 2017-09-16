@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Courgette|Great+Vibes|Indie+Flower|Josefin+Slab|Lobster|Tangerine" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
   <title>My PORTFOLIO</title>
   </head>
@@ -14,16 +15,16 @@
       <img src="ip2/assets/logoBig.png">
         <p class="welcome">We Provide The Best Food <br>At The <strong>Right Price</strong></p>
     </div>
-  </div>
+
 
   <div class="row">
     <div class="text-center">
       <div class="col-md-3">
         <div class="row" style="background-color: #E4E5E7">
-          <h2 style="padding: 20px; font-size: 40px">Happy Hour</h2>
+          <h2 style="padding: 20px; font-size: 30px">Happy Hour</h2>
         </div>
         <div class="row" style="background-color: #F15B29">
-         <h2 style="padding: 20px; font-size: 40px">Party Time</h2>
+         <h2 style="padding: 20px; font-size: 30px">Party Time</h2>
         </div>
       </div>
       <div class="col-md-3" id="breakfast">
@@ -51,15 +52,87 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
   </div>
-<div class="wrap2">
-  <div class="col-md-3">
-      <p><img src="ip2/assets/drink1.jpg">
-      <img src="ip2/assets/drink2.jpg"></p>
-</div>
-</div>
+  <div class="row">
+    <div class="col-md-6" id="wrap3">
+      <h2>Drinks</h2>
+      <h3>We also produce delicious drinks</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="col-md-6" id="wrap4">
+      <img src="ip2/assets/drink1.jpg">
+      <img src="ip2/assets/drink2.jpg">
+    </div>
+  </div>
 
+  <div id="platefood">
+    <div class="container">
+      <ul class="nav nav-tabs nav-justified">
+        <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+        <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+        <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+        <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+      </ul>
 
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+          <h3>Fast Food</h3>
+          <p>Some content.</p>
+        </div>
+        <div id="menu1" class="tab-pane fade">
+          <h3>Drinks</h3>
+          <p>Some content in menu 1.</p>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+          <h3>Chicken</h3>
+          <p>Some content in menu 2.</p>
+        </div>
+        <div id="menu3" class="tab-pane fade">
+          <h3>Rice</h3>
+          <p>Some content in menu 2.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="jumbotron">
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+      illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+      explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+      odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+      voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+      quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
+      eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+      voluptatem.</p>
+  </div>
+
+  <div id="subscribe">
+    <div class="text-center">
+    <h3 style="color: white; text-align: center;">Get our daily food items delivered to your email</h3>
+      <form class="form-inline">
+        <div class="form-group">
+          <input type="email" class="form-control" id="email" placeholder="Your Email">
+        </div>
+        <button id="button" type="subscribe" class="btn btn-default">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="text-center">
+      <div class="row">
+        <img src="ip2/assets/footerlogos/logo_white.png">
+        <p style="font-size: 30px">MENU</p>
+      </div>
+        <p style="font-size: 18px">That's What We Are</p>
+      <div class="row" style="padding: 10px">
+        <img src="ip2/assets/footerlogos/facebook.png" style="padding: 10px">
+        <img src="ip2/assets/footerlogos/twitter.png" style="padding: 10px">
+        <img src="ip2/assets/footerlogos/pinterest.png" style="padding: 10px">
+      </div>
+        <p> 2016 Menu Restaurant</p>
+    </div>
+  </div>
 
 
 
