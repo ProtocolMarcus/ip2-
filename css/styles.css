@@ -53,16 +53,18 @@
 #wrap3 {
   font-size: 15px;
   padding-left: 200px;
+  padding-right: 80px;
   text-align: right;
   padding-top: 100px;
 }
 
 #wrap4 {
   padding: 15px;
-  box-shadow: 5px 5px 15px rgba(1, 0, 0, 0.5);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
   margin-top: 50px;
   margin-bottom: 100px;
-  margin-right: 0px;
+  margin-right: 100px;
+
   float: right;
 }
 
@@ -98,8 +100,9 @@
 
 #email {
   width: 350px;
+  color: inherit;
   background-color: lightgrey;
-  color: white;
+  opacity: 0.3;
   height: 45px;
   border: 0px;
   font-size: 20px;
@@ -123,4 +126,8 @@
   padding-top: 50px;
   padding-bottom: 50px;
   color: white;
+}
+
+.testimony {
+  padding: 50px;
 }
