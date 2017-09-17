@@ -7,7 +7,8 @@
 .welcome {
   color: white;
   font-size: 40px;
-  padding-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-family: 'Quattrocento Sans', sans-serif;
 }
 
@@ -129,5 +130,7 @@
 }
 
 .testimony {
-  padding: 50px;
+    padding: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    margin: 100px;
 }
