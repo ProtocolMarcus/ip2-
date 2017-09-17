@@ -36,9 +36,10 @@
 }
 
 #wrap1 {
-  float: left;
-  padding-top: 100px;
-  padding-left: 150px;
+  padding: 15px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  margin-left: 150px;
+  margin-top: 100px;
 }
 
 #wrap2 {
@@ -57,9 +58,12 @@
 }
 
 #wrap4 {
-  float: right;
-  padding-top: 100px;
+  padding: 15px;
+  box-shadow: 5px 5px 15px rgba(1, 0, 0, 0.5);
+  margin-top: 50px;
   margin-bottom: 100px;
+  margin-right: 0px;
+  float: right;
 }
 
 #platefood {
