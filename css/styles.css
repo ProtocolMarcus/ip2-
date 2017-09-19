@@ -1,4 +1,4 @@
-#landing {
+  #landing {
   background-image: url("../ip2/assets/backgrounds/landing.jpg");
   background-size: 100%;
   padding-top: 80px;
@@ -75,22 +75,6 @@
   padding-bottom: 300px;
 }
 
-#home {
-  color: white;
-}
-
-#menu1 {
-  color: white;
-}
-
-#menu2 {
-  color: white;
-}
-
-#menu3 {
-  color: white;
-}
-
 #subscribe {
   background-image: url("../ip2/assets/backgrounds/subscribe.jpg");
   background-size: 100%;
@@ -132,3 +116,51 @@
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
   margin: 80px;
 }
+
+#part4 {
+  margin-top: 10%;
+  background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
+  background-size: cover;
+  height: 600px;
+}
+
+.optionbackground {
+  background-color: white;
+  margin: 10% 0% 0% 0%;
+  text-align: center;
+}
+
+.optionbackground .col-md-3 {
+  background-color: #E3E3E3;
+  color: #AEAEAE;
+  padding: 0;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+
+.optionbackground .active {
+  background-color: white;
+  color: #F15B29;
+  border-bottom: none;
+}
+
+.optionbackground .col-md-3 :hover:not(.active) {
+  background-color: white;
+  cursor: pointer;
+}
+
+.optionbackground h3 {
+  font-weight: bold;
+  margin: 0;
+  padding: 5% 0 5% 0;
+}
+
+.optionbackground p {
+  font-size: 120%;
+  color: #F15B29;
+  padding-top: 5px;
+}
+
+.optionbackground .col-md-4 {
+  padding: 4% 0% 2% 0%;
+  padding-left: -10;
