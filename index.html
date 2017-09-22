@@ -2,41 +2,65 @@
 <html>
 
 <head>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106826536-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments)
+    };
+    gtag('js', new Date());
+
+    gtag('config', 'UA-106826536-1');
+  </script>
+
   <meta charset="utf-8">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Courgette|Great+Vibes|Indie+Flower|Josefin+Slab|Lobster|Tangerine" rel="stylesheet">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <title>My PORTFOLIO</title>
+  <title>Anita's Kitchen</title>
 </head>
 
 <body>
+  <a href="#" <i class="ion-navicon" id="open-nav" style="font-size: 80px"></i></a>
+  <nav>
+    <div class="text-center">
+      <ul class="nav">
+        <li><i class="ion-close-circled" id="close-nav"></i></li>
+        <li><a href="#">Contacts</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Menu</a></li>
+      </ul>
+    </div>
+  </nav>
   <div id="landing">
     <div class="text-center">
       <img src="ip2/assets/logoBig.png">
       <p class="welcome">We Provide The Best Food <br>At The <strong>Right Price</strong></p>
     </div>
-
-
     <div class="row">
       <div class="text-center">
         <div class="col-md-3">
           <div class="row" style="background-color: #E4E5E7">
-            <h2 style="padding: 20px; font-size: 30px">Happy Hour</h2>
+            <h2 style="padding: 15px; font-size: 30px">Happy Hour</h2>
           </div>
           <div class="row" style="background-color: #F15B29">
             <h2 style="padding: 20px; font-size: 30px">Party Time</h2>
           </div>
         </div>
         <div class="col-md-3" id="breakfast">
-          <p>Breakfast</p>
+          <p><i>Breakfast</i></p>
         </div>
         <div class="col-md-3" id="lunch">
-          <p>Lunch</p>
+          <p><i>Lunch</i></p>
         </div>
         <div class="col-md-3" id="dinner">
-          <p>Dinner</p>
+          <p><i>Dinner</i></p>
         </div>
       </div>
     </div>
@@ -53,16 +77,18 @@
     <div class="col-md-6" id="wrap2">
       <h2>Fast Food</h2>
       <h3>You'll love our delicious fast food</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      <p style="padding-bottom: 10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <button id="viewgallary" type="subscribe" class="btn btn-default">VIEW GALLARY <i class="fa fa-arrow-right" aria-hidden="true" style="width: 5px; padding-left: 10px;"></i></button>
     </div>
   </div>
   <div class="row">
     <div class="col-md-6" id="wrap3">
       <h2>Drinks</h2>
       <h3>We also produce delicious drinks</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      <p style="padding-bottom: 10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <button id="viewgallary" type="subscribe" class="btn btn-default">VIEW GALLARY <i class="fa fa-arrow-right" aria-hidden="true" style="width: 5px; padding-left: 10px;"></i></button>
     </div>
     <div class="col-md-6">
       <div id="wrap4">
@@ -138,7 +164,7 @@
       <h3 style="color: white; text-align: center">Get our daily food items delivered to your email</h3>
       <form class="form-inline">
         <div class="form-group">
-          <input type="email" class="form-control" id="email" placeholder="Your email">
+          <input type="email" class="form-control" id="email" placeholder="Your email" style="color: white">
         </div>
         <button id="button" type="subscribe" class="btn btn-default">Subscribe</button>
       </form>
@@ -153,23 +179,17 @@
         <p style="font-size: 30px; float: right; padding-right: 580px">MENU</p>
       </div>
 
-
       <p style="font-size: 18px">That's What We Are</p>
-      <div class="row" style="padding: 10px">
-        <img src="ip2/assets/footerlogos/facebook.png">
-        <img src="ip2/assets/footerlogos/twitter.png">
-        <img src="ip2/assets/footerlogos/pinterest.png">
+      <div class="row">
+        <a href="#"><i class="fa fa-facebook-square" aria-hidden="true" style="font-size:30px; padding-right: 10px; color: white"></i></a>
+        <a href="#"><i class="fa fa-twitter-square" aria-hidden="true" style="font-size:30px; padding-right: 10px; color: white"></i></a>
+        <a href="#"><i class="fa fa-pinterest-square" aria-hidden="true" style="font-size:30px; padding-right: 10px; color: white"></i></a>
       </div>
-      <p> 2016 Menu Restaurant</p>
+      <div>
+        <p style="padding-top: 50px"> 2016 Menu Restaurant</p>
+      </div>
     </div>
   </div>
-
-
-
-
-
-
-
 
 </body>
 

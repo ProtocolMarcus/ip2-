@@ -1,166 +1,248 @@
-  #landing {
-  background-image: url("../ip2/assets/backgrounds/landing.jpg");
-  background-size: 100%;
-  padding-top: 80px;
-}
+        body {
+          font-family: 'Arvo', serif;
+        }
 
-.welcome {
-  color: white;
-  font-size: 40px;
-  padding-top: 20px;
-  padding-bottom: 70px;
-  font-family: 'Quattrocento Sans', sans-serif;
-}
+        #landing {
+          background-image: url("../ip2/assets/backgrounds/landing.jpg");
+          background-size: 100%;
+          padding-top: 20px;
+          background-repeat: no-repeat;
+        }
 
-#breakfast {
-  background-image: url("../ip2/assets/foodtop/breakfast.jpg");
-  background-size: 100%;
-  padding: 70px;
-  color: white;
-  font-size: 40px;
-}
+        .welcome {
+          color: white;
+          font-size: 40px;
+          padding-top: 20px;
+          padding-bottom: 130px;
+          font-family: 'Quattrocento Sans', sans-serif;
+        }
 
-#lunch {
-  background-image: url("../ip2/assets/foodtop/lunch.jpg");
-  background-size: 100%;
-  padding: 70px;
-  color: white;
-  font-size: 40px;
-}
+        #navbar {
+          color: white;
+          font-size: 60px;
+          padding-left: 70px;
+        }
 
-#dinner {
-  background-image: url("../ip2/assets/foodtop/dinner.jpg");
-  background-size: 100%;
-  padding: 70px;
-  color: white;
-  font-size: 40px;
-}
+        #breakfast {
+          background-image: url("../ip2/assets/foodtop/breakfast.jpg");
+          background-size: 100%;
+          padding: 80px;
+          color: white;
+          font-size: 30px;
+          background-repeat: no-repeat;
+          opacity: 1.0;
+        }
 
-#wrap1 {
-  padding: 15px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
-  margin-left: 150px;
-  margin-top: 100px;
-}
+        #breakfast:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=25);
+          color: white;
+        }
 
-#wrap2 {
-  padding-top: 100px;
-  padding-right: 200px;
-  padding-left: 50px;
-  font-size: 15px;
-  text-align: left;
-}
+        #lunch {
+          background-image: url("../ip2/assets/foodtop/lunch.jpg");
+          background-size: 100%;
+          padding: 80px;
+          color: white;
+          font-size: 30px;
+          background-repeat: no-repeat;
+          opacity: 1.0;
+        }
 
-#wrap3 {
-  font-size: 15px;
-  padding-left: 200px;
-  padding-right: 80px;
-  text-align: right;
-  padding-top: 100px;
-}
+        #lunch:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=25);
+          color: white;
+        }
 
-#wrap4 {
-  padding: 15px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
-  margin-top: 50px;
-  margin-bottom: 100px;
-  margin-right: 100px;
-  float: right;
-}
+        #dinner {
+          background-image: url("../ip2/assets/foodtop/dinner.jpg");
+          background-size: 100%;
+          padding: 80px;
+          color: white;
+          font-size: 30px;
+          background-repeat: no-repeat;
+          opacity: 1.0;
+        }
 
-#platefood {
-  background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
-  background-size: 100%;
-  padding-top: 100px;
-  padding-bottom: 300px;
-}
+        #dinner:hover {
+          opacity: 0.5;
+          filter: alpha(opacity=25);
+          color: white;
+        }
 
-#subscribe {
-  background-image: url("../ip2/assets/backgrounds/subscribe.jpg");
-  background-size: 100%;
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
+        #viewgallary {
+          width: 180px;
+          height: 50px;
+          border-color: #F15A29;
+          border-width: 1px;
+          border: solid;
+        }
 
-#email {
-  width: 350px;
-  color: inherit;
-  background-color: lightgrey;
-  opacity: 0.3;
-  height: 45px;
-  border: 0px;
-  font-size: 20px;
-  margin-top: 20px;
-  margin-right: 20px;
-}
+        #wrap1 {
+          padding: 15px;
+          box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+          margin-left: 150px;
+          margin-top: 100px;
+        }
 
-#button {
-  width: 200px;
-  background-color: #F15A29;
-  color: white;
-  height: 45px;
-  border-color: #F15A29;
-  font-size: 20px;
-  margin-top: 20px;
-}
+        #wrap2 {
+          padding-top: 100px;
+          padding-right: 200px;
+          padding-left: 50px;
+          font-size: 15px;
+          text-align: left;
+        }
 
-.footer {
-  background-color: #F15A29;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  color: white;
-}
+        #wrap3 {
+          font-size: 15px;
+          padding-left: 200px;
+          padding-right: 80px;
+          text-align: right;
+          padding-top: 100px;
+        }
 
-.testimony {
-  padding: 15px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
-  margin: 80px;
-}
+        #wrap4 {
+          padding: 15px;
+          box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+          margin-top: 50px;
+          margin-bottom: 0px;
+          margin-right: 100px;
+          float: right;
+        }
 
-#part4 {
-  margin-top: 10%;
-  background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
-  background-size: cover;
-  height: 600px;
-}
+        #platefood {
+          background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
+          background-size: 100%;
+          padding-top: 100px;
+          padding-bottom: 300px;
+        }
 
-.optionbackground {
-  background-color: white;
-  margin: 10% 0% 0% 0%;
-  text-align: center;
-}
+        #subscribe {
+          background-image: url("../ip2/assets/backgrounds/subscribe.jpg");
+          background-size: 100%;
+          padding-top: 70px;
+          padding-bottom: 70px;
+        }
 
-.optionbackground .col-md-3 {
-  background-color: #E3E3E3;
-  color: #AEAEAE;
-  padding: 0;
-  border-right: 1px solid #bbb;
-  border-bottom: 1px solid #bbb;
-}
+        #email {
+          width: 300px;
+          background-color: lightgrey;
+          opacity: 0.5;
+          height: 45px;
+          border: 0px;
+          font-size: 20px;
+          margin-top: 20px;
+          margin-right: 20px;
+        }
 
-.optionbackground .active {
-  background-color: white;
-  color: #F15B29;
-  border-bottom: none;
-}
+        #button {
+          width: 160px;
+          background-color: #F15A29;
+          color: white;
+          height: 45px;
+          border-color: #F15A29;
+          font-size: 20px;
+          margin-top: 20px;
+        }
 
-.optionbackground .col-md-3 :hover:not(.active) {
-  background-color: white;
-  cursor: pointer;
-}
+        .footer {
+          background-color: #F15A29;
+          padding-top: 50px;
+          padding-bottom: 50px;
+          color: white;
+        }
 
-.optionbackground h3 {
-  font-weight: bold;
-  margin: 0;
-  padding: 5% 0 5% 0;
-}
+        .testimony {
+          padding: 15px;
+          box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+          margin: 80px;
+        }
 
-.optionbackground p {
-  font-size: 120%;
-  color: #F15B29;
-  padding-top: 5px;
-}
+        #part4 {
+          margin-top: 10%;
+          background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
+          background-size: cover;
+          height: 600px;
+        }
 
-.optionbackground .col-md-4 {
-  padding: 4% 0% 2% 0%;
-  padding-left: -10;
+        .optionbackground {
+          background-color: white;
+          margin: 10% 0% 0% 0%;
+          text-align: center;
+        }
+
+        .optionbackground .col-md-3 {
+          background-color: #E3E3E3;
+          color: #AEAEAE;
+          padding: 0;
+          border-right: 1px solid #bbb;
+          border-bottom: 1px solid #bbb;
+        }
+
+        .optionbackground .active {
+          background-color: white;
+          color: #F15B29;
+          border-bottom: none;
+        }
+
+        .optionbackground .col-md-3 :hover:not(.active) {
+          background-color: white;
+          cursor: pointer;
+        }
+
+        .optionbackground h3 {
+          font-weight: bold;
+          margin: 0;
+          padding: 5% 0 5% 0;
+        }
+
+        .optionbackground p {
+          font-size: 120%;
+          color: #F15B29;
+          padding-top: 5px;
+        }
+
+        .optionbackground .col-md-4 {
+          padding: 4% 0% 2% 0%;
+          padding-left: -10;
+        }
+
+        #socialmedia {
+          padding-right: 10px;
+          font-size: 10px;
+        }
+
+        nav {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-color: #F15A29;
+          position: absolute;
+          width: 100%;
+          left: -100%;
+          font-size: 50px;
+          color: black;
+        }
+
+        a {
+          color: black;
+          text-decoration: none;
+        }
+
+        #open-nav {
+          position: absolute;
+          font-size: 300%;
+          padding: 5%;
+          color: white;
+        }
+
+        #close-nav {
+          position: absolute;
+          font-size: 50%;
+          padding: 5px 15px 900px 500px;
+          left: 90%;
+          top: 20px;
+          margin-bottom: 90% top: 5%;
+        }

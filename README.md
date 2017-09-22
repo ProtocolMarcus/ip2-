@@ -1,12 +1,28 @@
-# Independent Project
+#Project Title
 
-## Instructions
-  1) Please fork the Moringa School **mpft1-ip** repo to your own account.
+Anita's Kitchen
 
-  2) Clone **your forked repo** to your own machine.`
+##Getting Started
 
-  3) Fill in the form under the [IP submission](http://moringaprep-ft.herokuapp.com/#10.html) heading in the LMS
+A website for "Anita's Kitchen". https://sami-mai.github.io/anitas-kitchen-IP/
 
-  4) Complete the independent project.
-  
-  5) Push your commits up to your forked repo.
+##Built With
+
+Bootstrap - The web framework used
+jquery-3 - JavaScript library
+Versioning
+
+We use jquery-3 for versioning.
+
+##Authors
+
+Samirah Maison - Initial work - anitas-kitchen-IP
+See also the list of contributors who participated in this project.
+
+##License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
+Acknowledgments
+
+Moringa School
