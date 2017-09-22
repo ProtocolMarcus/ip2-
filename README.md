@@ -13,7 +13,7 @@ jquery-3 - JavaScript library
 
 
 
-##Authors
+##Author
 
 Ahiatrrogah Norkplim - Initial work - anitas-kitchen-IP
 

@@ -236,6 +236,7 @@
           font-size: 300%;
           padding: 5%;
           color: white;
+          z-index: +1;
         }
 
         #close-nav {
@@ -245,4 +246,10 @@
           left: 90%;
           top: 20px;
           margin-bottom: 90% top: 5%;
+          z-index: +1;
+        }
+
+        .btn-default {
+          color: #F15A29;
+          background-color: #fff;
         }
