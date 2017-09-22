@@ -4,20 +4,19 @@ Anita's Kitchen
 
 ##Getting Started
 
-A website for "Anita's Kitchen". https://sami-mai.github.io/anitas-kitchen-IP/
+A website for "Anita's Kitchen". https://protocolmarcus.github.io/ip2-/
 
 ##Built With
 
 Bootstrap - The web framework used
 jquery-3 - JavaScript library
-Versioning
 
-We use jquery-3 for versioning.
+
 
 ##Authors
 
-Samirah Maison - Initial work - anitas-kitchen-IP
-See also the list of contributors who participated in this project.
+Ahiatrrogah Norkplim - Initial work - anitas-kitchen-IP
+
 
 ##License
 
